@@ -281,14 +281,14 @@ plot(names(tapply(weekday.data$steps, weekday.data$interval, mean)),
      tapply(weekday.data$steps, weekday.data$interval, mean), 
      type="l", 
      col="darkmagenta",
-     main="Average steps per interval on weekdays", 
+     main="Average steps on weekdays", 
      xlab="Interval", 
      ylab="Average steps per interval")
 plot(names(tapply(weekend.data$steps, weekend.data$interval, mean)), 
      tapply(weekend.data$steps, weekend.data$interval, mean), 
      type="l", 
      col="blue4",
-     main="Average steps per interval on weekends", 
+     main="Average steps on weekends", 
      xlab="Interval", 
      ylab="Average steps per interval")
 ```
